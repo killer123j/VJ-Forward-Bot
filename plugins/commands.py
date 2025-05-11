@@ -21,7 +21,7 @@ START_TIME = time.time()
 # Ask Doubt on telegram @KingVJ01
 
 main_buttons = [[
-    InlineKeyboardButton('❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️', url='https://t.me/KILLExVIPP')
+    InlineKeyboardButton('❣️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❣️', url='https://t.me/KILLERxVIPP')
 ],[
     InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+BSkLj7TCrZ1kYjZl'),
     InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+LBy4z-dhl-w0ZDU1')
@@ -68,7 +68,7 @@ async def restart(client, message):
 @Client.on_callback_query(filters.regex(r'^help'))
 async def helpcb(bot, query):
     buttons = [[
-        InlineKeyboardButton('🤔 ʜᴏᴡ ᴛᴏ ᴜsᴇ coming soon ❓', callback_data='https://youtube.com/@killerxvip1?si=hov1I7PsJyXf5Olv')
+        InlineKeyboardButton('🤔 ʜᴏᴡ ᴛᴏ ᴜsᴇ coming soon ❓', url='https://youtube.com/@killerxvip1?si=hov1I7PsJyXf5Olv')
     ],[
         InlineKeyboardButton('Aʙᴏᴜᴛ ✨️', callback_data='about'),
         InlineKeyboardButton('⚙ Sᴇᴛᴛɪɴɢs', callback_data='settings#main')
